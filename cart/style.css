@@ -1,0 +1,180 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+/* left side  scrollbar add */
+
+.anyClass{
+    height:150px;
+    overflow-y: scroll;
+}
+
+/* right side scrollbar add  */
+#right{
+  height:180px;
+  overflow:hidden;
+}
+ 
+#left::-webkit-scrollbar{
+  display: none;
+}
+.cartname {
+  margin-top: 15px;
+  font-weight: 500;
+  margin-left: 5px;
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+
+#left {
+  background: #f9ede2;
+  width: 707px;
+  height: 600px;
+}
+
+#cartrow {
+  background: #f9ede2;
+  border: 1px solid #000000;
+  border-radius: 8px;
+}
+
+.brandtitle {
+  margin-top: -4px;
+  font-weight: 500;
+}
+
+.pricediscount{
+  height: 20px;
+}
+
+.pricediscount p{
+  font-weight: 600; 
+  width:60px;
+  height:23.75px
+}
+
+
+.itemtext{
+  margin-right: 28px;
+  width: 29%; 
+  font-weight:500;
+  margin-top:9px;
+
+}
+
+#item img {
+  height: 114px;
+  width: 100px;
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 0px;
+  background: #c4c4c4;
+}
+
+#banner {
+  margin-top: 12px;
+  margin-left: 10px;
+}
+
+.minus_button {
+  width: 20px;
+  height: 24px;
+  background: linear-gradient(#fff, #f9f9f9);
+  display: inline-block;
+  border: 1px solid #c2c2c2;
+  cursor: pointer;
+  font-size: 16px;
+  padding-top: 1px;
+  line-height: 1;
+}
+
+.plus_button {
+  width: 20px;
+  height: 24px;
+  background: linear-gradient(#fff, #f9f9f9);
+  display: inline-block;
+  border: 1px solid #c2c2c2;
+  cursor: pointer;
+  font-size: 16px;
+  padding-top: 1px;
+  line-height: 1;
+}
+
+.input1 {
+  border: none;
+  width: 44px;
+  font-size: 14px;
+  font-weight: 500;
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+  height: 28px;
+  background-color: #fff;
+  border: 1px solid #c2c2c2;
+  margin-right: -5px;
+}
+
+.basket {
+  width: 20px;
+  height: 20px;
+  margin-left: 40px;
+}
+
+.applybutton {
+  height: 44px;
+  width: 550px;
+  color: white;
+  text-align: center;
+  font-size: medium;
+  line-height: 39px;
+  margin: 5px auto;
+}
+
+.button__text {
+  display: inline-flex;
+  margin: 12px;
+  margin-top: 15px;
+  font-style: medium;
+  font-size: 16px;
+  line-height: 26px;
+  line-height: 100%;
+  text-align: center;
+  vertical-align: center;
+  margin-left: 5px;
+}
+
+.applybutton2 {
+  height: 30px;
+  text-align: center;
+  font-size: medium;
+  line-height: 35px;
+  margin: 10px auto;
+  font-size: medium;
+}
+
+.price {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.price_indiv {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.col-md-6.remove {
+  height: 16px;
+}
+
+.btn1 {
+  border: 0px;
+  background-color: #f9ede2;
+}
